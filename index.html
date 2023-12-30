@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body >
+<div class="container " id="ahmed">
+<div class="form-box  ">
+<form action="" name="Formfill" onsubmit=" return validation()">
+
+
+
+    <h2>Register</h2>
+    <p id="result" class="d-flex"></p>
+    <div class="input-box">
+        <i class='bx bxs-user'></i>
+        <input  type="text" placeholder="Username" name="Username" class="username is-valid" >
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-envelope'></i>
+        <input type="email" placeholder="Email" name="Email" class="email">
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-lock-alt'></i>
+        <input type="password" placeholder="password" name="Password" class="password">
+    </div>
+    <div class="input-box">
+       <i class='bx bxs-lock-alt'></i>
+        <input type="password" placeholder="confirm password" name="CPassword" class="passwordcon"  >
+    </div>
+<div class="button">
+    <input type="submit" value="register" class="btn" onclick="validation()" >
+</div>
+<div class="group">
+
+    <span><a href="">Forget-password</a></span>
+    <span><a href="login.html">Login</a></span>
+</div>
+
+</form>
+
+
+
+
+</div>
+
+<div class="popup" id="Popup">
+    <i class='bx bx-check-circle'></i>
+    <h2>Thank you</h2>
+    <p>You Were Registraation Sucessfully. Thanks!</p>
+    <a href=""><button>OK</button></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="style.js"></script>
+</body>
+</html>

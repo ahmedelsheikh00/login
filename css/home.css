@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+background-image: url("../img/download\ \(2\).jpeg");
+background-position: center;
+background-size: cover;
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: space-around;
+  
+
+    
+}
+
+h2{
+    color: white;
+    font-size: 2.5rem;
+}
+.prompt{
+    background-color: #292c31;
+    padding: .3125rem;
+    width: 38.75rem;
+    border: .1875rem solid #36383d;
+
+ border-radius: 10px;
+}
+
+input ,button{
+    padding: 10px;
+    border: none;
+    font-size: 1.25rem;
+    color: #fff;
+}
+input{
+    background-color: #292c31;
+    outline: none;
+    width: 75%;
+    color: #fff;
+    transition: 1s all;
+
+}
+
+input:hover{
+    background-color:black;
+    border: red 2px solid;
+}
+button{
+    background-color: #36383d;
+    width: 20%;
+     cursor: pointer;
+     transition: 1s all;
+}
+button:hover{
+    background-color:black;
+    border: red 2px solid;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: .625rem;
+}
+.images div{
+    height: 12.5rem;
+    width: 12.5rem;
+    background-color: #292c31;
+    border-radius:10px ;
+    border: .1875rem solid #36383d;
+}
+
+.images div img{
+    width: 100%;
+}
+
+.caption h1,p{
+    color: #fff;
+    font-weight: 700;
+
+
+}
+.caption h3{
+    color: red;
+
+}

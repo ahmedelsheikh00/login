@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+     <style>
+        #resuult{
+            color: red;
+        }
+    </style> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container ">
+    <div class="form-box  ">
+        <form action="" name="Formfill" onsubmit=" return validation()">
+        
+        
+        
+            <h2>login</h2>
+            <p id="resuult" class=" danger position-relative fw-bold top-25 "></p>
+        
+            <div class="input-box">
+                <i class='bx bxs-envelope'></i>
+                <input type="email" placeholder="Email" name="Email" class="email">
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-lock-alt'></i>
+                <input type="password" placeholder="password" name="Password" class="password">
+            </div>
+           
+        <div class="button">
+            <input type="submit" value="Log in" class="btn " onclick="validation()" >
+        </div>
+
+        <div class="button  mt-3">
+           
+    <a href=""><input type="submit" value="register" class="btn" onclick=" history.back()"></a>
+        </div>
+        </form>
+        
+        
+        
+        
+        </div>
+    </div>
+
+
+
+    <script src="login.js"></script>
+        
+</body>
+</html>
